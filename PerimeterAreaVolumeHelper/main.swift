@@ -78,7 +78,7 @@ func areaOfTrapezoid(a: Double, b: Double, h: Double) -> Double{
 }
 //Calculate the area of the circle
 func areaOfCircle(r: Double) -> Double{
-    return 3.14 * r * r
+    return Double.pi * pow(r,2)
 }
 
 //Get the input to calculate a rectangle's area
