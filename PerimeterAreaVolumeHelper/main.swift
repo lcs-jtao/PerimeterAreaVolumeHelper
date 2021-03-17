@@ -100,6 +100,7 @@ func collectRectangleAreaInputAndShowOutput(){
     let result = areaOfRectangle(l: length, w: width)
     
     //Print the area
+    print("")
     print("The area of the rectangle is \(result) square units")
     
     //Pause
@@ -125,6 +126,7 @@ func collectParallelogramAreaInputAndShowOutput(){
     let result = areaOfParallelogram(b: base, h: height)
     
     //Print the area
+    print("")
     print("The area of the parallelogram is \(result) square units")
     
     //Pause
@@ -150,6 +152,7 @@ func collectTriangleAreaInputAndShowOutput(){
     let result = areaOfTriangle(b: base, h: height)
     
     //Print the area
+    print("")
     print("The area of the triangle is \(result) square units")
     
     //Pause
@@ -181,6 +184,7 @@ func collectTrapezoidAreaInputAndShowOutput(){
     let result = areaOfTrapezoid(a: top, b: bottom, h: height)
     
     //Print the area
+    print("")
     print("The area of the rectangle is \(result) square units")
     
     //Pause
@@ -200,6 +204,7 @@ func collectCircleAreaInputAndShowOutput(){
     let result = areaOfCircle(r: radius)
     
     //Print the area
+    print("")
     print("The area of the circle is \(result) square units")
     
     //Pause
