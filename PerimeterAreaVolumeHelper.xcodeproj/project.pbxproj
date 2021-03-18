@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6CE5BE50260108AF001EC320 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE4F260108AF001EC320 /* main.swift */; };
+		6CE5BE5A2603D2EB001EC320 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE592603D272001EC320 /* SharedFunctions.swift */; };
+		6CE5BE632603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE622603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift */; };
+		6CE5BE652603D353001EC320 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE642603D353001EC320 /* ContentView.swift */; };
+		6CE5BE672603D359001EC320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5BE662603D359001EC320 /* Assets.xcassets */; };
+		6CE5BE6A2603D359001EC320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5BE692603D359001EC320 /* Preview Assets.xcassets */; };
+		6CE5BE712603D376001EC320 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE592603D272001EC320 /* SharedFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +32,24 @@
 		6CE5BE4C260108AF001EC320 /* PerimeterAreaVolumeHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerimeterAreaVolumeHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE5BE4F260108AF001EC320 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6CE5BE572603CED8001EC320 /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		6CE5BE592603D272001EC320 /* SharedFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedFunctions.swift; sourceTree = "<group>"; };
+		6CE5BE602603D353001EC320 /* iOS-PerimeterAreaVolumeHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-PerimeterAreaVolumeHelper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE5BE622603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_PerimeterAreaVolumeHelperApp.swift; sourceTree = "<group>"; };
+		6CE5BE642603D353001EC320 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CE5BE662603D359001EC320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CE5BE692603D359001EC320 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CE5BE6B2603D359001EC320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6CE5BE49260108AF001EC320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE5BE5D2603D353001EC320 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,8 +62,10 @@
 		6CE5BE43260108AF001EC320 = {
 			isa = PBXGroup;
 			children = (
+				6CE5BE592603D272001EC320 /* SharedFunctions.swift */,
 				6CE5BE572603CED8001EC320 /* Structures.playground */,
 				6CE5BE4E260108AF001EC320 /* PerimeterAreaVolumeHelper */,
+				6CE5BE612603D353001EC320 /* iOS-PerimeterAreaVolumeHelper */,
 				6CE5BE4D260108AF001EC320 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				6CE5BE4C260108AF001EC320 /* PerimeterAreaVolumeHelper */,
+				6CE5BE602603D353001EC320 /* iOS-PerimeterAreaVolumeHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,26 @@
 				6CE5BE4F260108AF001EC320 /* main.swift */,
 			);
 			path = PerimeterAreaVolumeHelper;
+			sourceTree = "<group>";
+		};
+		6CE5BE612603D353001EC320 /* iOS-PerimeterAreaVolumeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				6CE5BE622603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift */,
+				6CE5BE642603D353001EC320 /* ContentView.swift */,
+				6CE5BE662603D359001EC320 /* Assets.xcassets */,
+				6CE5BE6B2603D359001EC320 /* Info.plist */,
+				6CE5BE682603D359001EC320 /* Preview Content */,
+			);
+			path = "iOS-PerimeterAreaVolumeHelper";
+			sourceTree = "<group>";
+		};
+		6CE5BE682603D359001EC320 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CE5BE692603D359001EC320 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +127,23 @@
 			productReference = 6CE5BE4C260108AF001EC320 /* PerimeterAreaVolumeHelper */;
 			productType = "com.apple.product-type.tool";
 		};
+		6CE5BE5F2603D353001EC320 /* iOS-PerimeterAreaVolumeHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE5BE6C2603D359001EC320 /* Build configuration list for PBXNativeTarget "iOS-PerimeterAreaVolumeHelper" */;
+			buildPhases = (
+				6CE5BE5C2603D353001EC320 /* Sources */,
+				6CE5BE5D2603D353001EC320 /* Frameworks */,
+				6CE5BE5E2603D353001EC320 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-PerimeterAreaVolumeHelper";
+			productName = "iOS-PerimeterAreaVolumeHelper";
+			productReference = 6CE5BE602603D353001EC320 /* iOS-PerimeterAreaVolumeHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -94,6 +154,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					6CE5BE4B260108AF001EC320 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					6CE5BE5F2603D353001EC320 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -112,16 +175,40 @@
 			projectRoot = "";
 			targets = (
 				6CE5BE4B260108AF001EC320 /* PerimeterAreaVolumeHelper */,
+				6CE5BE5F2603D353001EC320 /* iOS-PerimeterAreaVolumeHelper */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE5BE5E2603D353001EC320 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE5BE6A2603D359001EC320 /* Preview Assets.xcassets in Resources */,
+				6CE5BE672603D359001EC320 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6CE5BE48260108AF001EC320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE5BE5A2603D2EB001EC320 /* SharedFunctions.swift in Sources */,
 				6CE5BE50260108AF001EC320 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE5BE5C2603D353001EC320 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE5BE712603D376001EC320 /* SharedFunctions.swift in Sources */,
+				6CE5BE652603D353001EC320 /* ContentView.swift in Sources */,
+				6CE5BE632603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +352,53 @@
 			};
 			name = Release;
 		};
+		6CE5BE6D2603D359001EC320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-PerimeterAreaVolumeHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = X9P576WHB9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-PerimeterAreaVolumeHelper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.joycetao.iOS-PerimeterAreaVolumeHelper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CE5BE6E2603D359001EC320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-PerimeterAreaVolumeHelper/Preview Content\"";
+				DEVELOPMENT_TEAM = X9P576WHB9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iOS-PerimeterAreaVolumeHelper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.joycetao.iOS-PerimeterAreaVolumeHelper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -282,6 +416,15 @@
 			buildConfigurations = (
 				6CE5BE54260108AF001EC320 /* Debug */,
 				6CE5BE55260108AF001EC320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE5BE6C2603D359001EC320 /* Build configuration list for PBXNativeTarget "iOS-PerimeterAreaVolumeHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE5BE6D2603D359001EC320 /* Debug */,
+				6CE5BE6E2603D359001EC320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
