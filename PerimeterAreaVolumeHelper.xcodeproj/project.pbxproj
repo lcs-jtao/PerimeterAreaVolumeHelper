@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		6CE5BE4C260108AF001EC320 /* PerimeterAreaVolumeHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerimeterAreaVolumeHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE5BE4F260108AF001EC320 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6CE5BE572603CED8001EC320 /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		6CE5BE43260108AF001EC320 = {
 			isa = PBXGroup;
 			children = (
+				6CE5BE572603CED8001EC320 /* Structures.playground */,
 				6CE5BE4E260108AF001EC320 /* PerimeterAreaVolumeHelper */,
 				6CE5BE4D260108AF001EC320 /* Products */,
 			);
