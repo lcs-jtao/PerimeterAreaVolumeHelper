@@ -19,12 +19,15 @@ struct ContentView: View {
     //NOTE: This assumes the user will always provide correct input
     //We must update this later to deal with bad input
     private var actualWidth: Double{
-        return Double(givenWidth)!
+        
+        //?? 0 is a "nil coalescing operator"
+        //Function: When the conversion to a Double doesn't work, provide a defult value instead - in this case, 0
+        return Double(givenWidth) ?? 0
     }
     
     //Return the length as a number
     private var actualLength: Double{
-        return Double(givenLength)!
+        return Double(givenLength) ?? 0
     }
     
     //Return the area of the rectangle
