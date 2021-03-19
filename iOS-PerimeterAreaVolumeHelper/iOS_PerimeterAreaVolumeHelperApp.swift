@@ -11,7 +11,9 @@ import SwiftUI
 struct iOS_PerimeterAreaVolumeHelperApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+            }
         }
     }
 }

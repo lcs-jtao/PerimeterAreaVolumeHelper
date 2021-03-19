@@ -9,29 +9,53 @@ import SwiftUI
 
 struct ContentView: View {
     
-    
     //MARK: Stored properties
-    //Store the name (cannot be changed)
-    @State private var name = ""
+    @State private var givenWidth = "0"
+    @State private var givenLength = "0"
     
     //MARK: Computer properties
+    
+    //Return the width as a number
+    //NOTE: This assumes the user will always provide correct input
+    //We must update this later to deal with bad input
+    private var actualWidth: Double{
+        return Double(givenWidth)!
+    }
+    
+    //Return the length as a number
+    private var actualLength: Double{
+        return Double(givenLength)!
+    }
+    
+    //Return the area of the rectangle
+    private var area: Double{
+        return areaOfRectangle(l: actualLength, w: actualWidth)
+    }
+    
     var body: some View {
         
-        //There can only be ONE view at the top level of the body property
-        
-        //VStack is a structure that vertically stacks views on top of each other
-        //Right now, the only argument to the VStack is a trailing closure...the { }
-        VStack {
+        Form {
             
-            //$name means "connect this field to the name property" ($ is a bounding -  field is bound to the name property)
-            TextField("Enter a name", text: $name)
-            Text("Hello, \(name)")
+            //INPUT
+            Text("Enter the width of the rectangle")
+                .bold()
+            TextField("Width", text :$givenWidth)
+            
+            Text("Enter the length of the rectangle")
+                .bold()
+            TextField("Length", text :$givenLength)
+            
+            //OUTPUT
+            Text("The area of the rectangle is \(area)")
         }
+        .navigationTitle("Area Helper")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView{
+            ContentView()
+        }
     }
 }
