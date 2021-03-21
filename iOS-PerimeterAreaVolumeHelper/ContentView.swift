@@ -51,7 +51,7 @@ struct ContentView: View {
             //OUTPUT
             Text("The area of the rectangle is \(area)")
         }
-        .navigationTitle("Area Helper")
+        .navigationTitle("Rectangle Area Helper")
     }
 }
 

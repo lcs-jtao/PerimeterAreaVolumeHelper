@@ -14,6 +14,10 @@
 		6CE5BE672603D359001EC320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5BE662603D359001EC320 /* Assets.xcassets */; };
 		6CE5BE6A2603D359001EC320 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5BE692603D359001EC320 /* Preview Assets.xcassets */; };
 		6CE5BE712603D376001EC320 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE592603D272001EC320 /* SharedFunctions.swift */; };
+		6CFB155D2604E1C300AE22FF /* AreaOfCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB155C2604E1C300AE22FF /* AreaOfCircleView.swift */; };
+		6CFB15612604E43F00AE22FF /* AreaOfTriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB15602604E43F00AE22FF /* AreaOfTriangleView.swift */; };
+		6CFB15652604E5AC00AE22FF /* AreaOfParallelogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB15642604E5AC00AE22FF /* AreaOfParallelogramView.swift */; };
+		6CFB15692607F1AE00AE22FF /* AreaOfTrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB15682607F1AE00AE22FF /* AreaOfTrapezoidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +43,10 @@
 		6CE5BE662603D359001EC320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CE5BE692603D359001EC320 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6CE5BE6B2603D359001EC320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CFB155C2604E1C300AE22FF /* AreaOfCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaOfCircleView.swift; sourceTree = "<group>"; };
+		6CFB15602604E43F00AE22FF /* AreaOfTriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaOfTriangleView.swift; sourceTree = "<group>"; };
+		6CFB15642604E5AC00AE22FF /* AreaOfParallelogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaOfParallelogramView.swift; sourceTree = "<group>"; };
+		6CFB15682607F1AE00AE22FF /* AreaOfTrapezoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaOfTrapezoidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,10 @@
 				6CE5BE662603D359001EC320 /* Assets.xcassets */,
 				6CE5BE6B2603D359001EC320 /* Info.plist */,
 				6CE5BE682603D359001EC320 /* Preview Content */,
+				6CFB155C2604E1C300AE22FF /* AreaOfCircleView.swift */,
+				6CFB15602604E43F00AE22FF /* AreaOfTriangleView.swift */,
+				6CFB15642604E5AC00AE22FF /* AreaOfParallelogramView.swift */,
+				6CFB15682607F1AE00AE22FF /* AreaOfTrapezoidView.swift */,
 			);
 			path = "iOS-PerimeterAreaVolumeHelper";
 			sourceTree = "<group>";
@@ -206,8 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFB15692607F1AE00AE22FF /* AreaOfTrapezoidView.swift in Sources */,
+				6CFB15652604E5AC00AE22FF /* AreaOfParallelogramView.swift in Sources */,
+				6CFB155D2604E1C300AE22FF /* AreaOfCircleView.swift in Sources */,
 				6CE5BE712603D376001EC320 /* SharedFunctions.swift in Sources */,
 				6CE5BE652603D353001EC320 /* ContentView.swift in Sources */,
+				6CFB15612604E43F00AE22FF /* AreaOfTriangleView.swift in Sources */,
 				6CE5BE632603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
