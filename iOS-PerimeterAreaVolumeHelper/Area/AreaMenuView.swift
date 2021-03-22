@@ -18,6 +18,29 @@ struct AreaMenuView: View {
                     Text("Rectangle")
                 })
             
+            NavigationLink(
+                destination: AreaOfCircleView(),
+                label: {
+                    Text("Circle")
+                })
+            
+            NavigationLink(
+                destination: AreaOfTriangleView(),
+                label: {
+                    Text("Triangle")
+                })
+            
+            NavigationLink(
+                destination: AreaOfParallelogramView(),
+                label: {
+                    Text("Parallelogram")
+                })
+            
+            NavigationLink(
+                destination: AreaOfTrapezoidView(),
+                label: {
+                    Text("Trapezoid")
+                })
         }
         .navigationTitle("Area Helpers")
     }
