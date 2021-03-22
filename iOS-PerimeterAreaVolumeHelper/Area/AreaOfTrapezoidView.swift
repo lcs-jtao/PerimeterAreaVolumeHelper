@@ -58,7 +58,7 @@ struct AreaOfTrapezoidView: View {
             //OUTPUT
             Text("The area of the trapezoid is \(area)")
         }
-        .navigationTitle("Trapezoid Area Helper")
+        .navigationTitle("Trapezoid Area Helper").navigationBarTitleDisplayMode(.inline)
     }
 }
 

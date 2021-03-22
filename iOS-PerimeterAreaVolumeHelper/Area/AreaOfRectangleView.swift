@@ -58,6 +58,7 @@ struct AreaOfRectangleView: View {
             Text("The area of the rectangle is \(area)")
         }
         .navigationTitle("Rectangle Area Helper")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

@@ -41,6 +41,7 @@ struct AreaOfCircleView: View {
             Text("The area of the circle is \(area)")
         }
         .navigationTitle("Circle Area Helper")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

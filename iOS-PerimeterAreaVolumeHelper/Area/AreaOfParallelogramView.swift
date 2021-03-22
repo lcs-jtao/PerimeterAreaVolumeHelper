@@ -50,6 +50,7 @@ struct AreaOfParallelogramView: View {
             Text("The area of the parallelogram is \(area)")
         }
         .navigationTitle("Parallelogram Area Helper")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

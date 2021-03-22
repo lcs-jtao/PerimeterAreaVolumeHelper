@@ -50,6 +50,7 @@ struct AreaOfTriangleView: View {
             Text("The area of the triangle is \(area)")
         }
         .navigationTitle("Triangle Area Helper")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
