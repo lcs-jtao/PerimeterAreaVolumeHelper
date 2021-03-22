@@ -39,12 +39,18 @@ struct AreaOfRectangleView: View {
         
         Form {
             
+            Image("rectangle")
+                .resizable()
+                .scaledToFit()
+//                .padding(.horizontal, 40)
+//                .padding(.bottom, 50)
+            
             //INPUT
-            Text("Enter the width of the rectangle")
+            Text("Enter the width (w) of the rectangle")
                 .bold()
             TextField("Width", text :$givenWidth)
             
-            Text("Enter the length of the rectangle")
+            Text("Enter the length (l) of the rectangle")
                 .bold()
             TextField("Length", text :$givenLength)
             

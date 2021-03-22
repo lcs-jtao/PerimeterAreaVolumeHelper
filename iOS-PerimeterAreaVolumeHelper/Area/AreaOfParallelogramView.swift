@@ -33,12 +33,16 @@ struct AreaOfParallelogramView: View {
         
         Form {
             
+            Image("parallelogram")
+                .resizable()
+                .scaledToFit()
+            
             //INPUT
-            Text("Enter the base of the parallelogram")
+            Text("Enter the base (b) of the parallelogram")
                 .bold()
             TextField("Base", text :$givenBase)
             
-            Text("Enter the height of the parallelogram")
+            Text("Enter the height (h) of the parallelogram")
                 .bold()
             TextField("Height", text :$givenHeight)
             

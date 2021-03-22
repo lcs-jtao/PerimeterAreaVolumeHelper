@@ -33,12 +33,16 @@ struct AreaOfTriangleView: View {
         
         Form {
             
+            Image("triangle")
+                .resizable()
+                .scaledToFit()
+            
             //INPUT
-            Text("Enter the base of the triangle")
+            Text("Enter the base (b) of the triangle")
                 .bold()
             TextField("Base", text :$givenBase)
             
-            Text("Enter the height of the triangle")
+            Text("Enter the height (h) of the triangle")
                 .bold()
             TextField("Height", text :$givenHeight)
             

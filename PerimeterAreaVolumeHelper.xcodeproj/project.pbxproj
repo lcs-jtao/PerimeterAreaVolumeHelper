@@ -101,15 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				6CE5BE622603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift */,
-				6CE5BE642603D353001EC320 /* AreaOfRectangleView.swift */,
+				6CFB15742608CF7600AE22FF /* Area */,
 				6CE5BE662603D359001EC320 /* Assets.xcassets */,
 				6CE5BE6B2603D359001EC320 /* Info.plist */,
 				6CE5BE682603D359001EC320 /* Preview Content */,
-				6CFB155C2604E1C300AE22FF /* AreaOfCircleView.swift */,
-				6CFB15602604E43F00AE22FF /* AreaOfTriangleView.swift */,
-				6CFB15642604E5AC00AE22FF /* AreaOfParallelogramView.swift */,
-				6CFB15682607F1AE00AE22FF /* AreaOfTrapezoidView.swift */,
-				6CFB156C2608CBC100AE22FF /* AreaMenuView.swift */,
 			);
 			path = "iOS-PerimeterAreaVolumeHelper";
 			sourceTree = "<group>";
@@ -120,6 +115,19 @@
 				6CE5BE692603D359001EC320 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CFB15742608CF7600AE22FF /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				6CFB156C2608CBC100AE22FF /* AreaMenuView.swift */,
+				6CFB15682607F1AE00AE22FF /* AreaOfTrapezoidView.swift */,
+				6CFB15642604E5AC00AE22FF /* AreaOfParallelogramView.swift */,
+				6CFB15602604E43F00AE22FF /* AreaOfTriangleView.swift */,
+				6CFB155C2604E1C300AE22FF /* AreaOfCircleView.swift */,
+				6CE5BE642603D353001EC320 /* AreaOfRectangleView.swift */,
+			);
+			path = Area;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -27,8 +27,13 @@ struct AreaOfCircleView: View {
         
         Form {
             
+            Image("circle")
+                .resizable()
+                .scaledToFit()
+                .padding(20)
+            
             //INPUT
-            Text("Enter the radius of the circle")
+            Text("Enter the radius (r) of the circle")
                 .bold()
             TextField("Radius", text :$givenRadius)
             

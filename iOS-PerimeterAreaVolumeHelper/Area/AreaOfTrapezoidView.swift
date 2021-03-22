@@ -38,16 +38,20 @@ struct AreaOfTrapezoidView: View {
         
         Form {
             
+            Image("trapezoid")
+                .resizable()
+                .scaledToFit()
+            
             //INPUT
-            Text("Enter the top of the trapezoid")
+            Text("Enter the top (a) of the trapezoid")
                 .bold()
             TextField("Top", text :$givenTop)
             
-            Text("Enter the base of the trapezoid")
+            Text("Enter the base (b) of the trapezoid")
                 .bold()
             TextField("Base", text :$givenBase)
             
-            Text("Enter the height of the trapezoid")
+            Text("Enter the height (h) of the trapezoid")
                 .bold()
             TextField("Height", text :$givenHeight)
             
