@@ -12,7 +12,7 @@ struct iOS_PerimeterAreaVolumeHelperApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                ContentView()
+                AreaOfRectangleView()
             }
         }
     }

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AreaOfRectangleView.swift
 //  iOS-PerimeterAreaVolumeHelper
 //
 //  Created by Joyce Tao on 2021-03-18.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AreaOfRectangleView: View {
     
     //MARK: Stored properties
     @State private var givenWidth = "0"
@@ -55,10 +55,10 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AreaOfRectangleView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            ContentView()
+            AreaOfRectangleView()
         }
     }
 }
