@@ -11,8 +11,32 @@ import SwiftUI
 struct iOS_PerimeterAreaVolumeHelperApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-                AreaOfRectangleView()
+            
+            TabView {
+                
+                NavigationView{
+                    AreaMenuView()
+                }
+                .tabItem {
+                    Image(systemName: "triangle.fill")
+                    Text("Area")
+                }
+                
+                NavigationView{
+                    VolumeMenuView()
+                }
+                .tabItem {
+                    Image(systemName: "pyramid")
+                    Text("Volume")
+                }
+                
+                NavigationView{
+                    SurfaceAreaMenuView()
+                }
+                .tabItem {
+                    Image(systemName: "pyramid.fill")
+                    Text("Surface Area")
+                }
             }
         }
     }

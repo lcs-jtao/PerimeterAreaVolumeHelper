@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C180726260A42260055A1E7 /* VolumeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C180725260A42260055A1E7 /* VolumeMenuView.swift */; };
+		6C18072D260A42900055A1E7 /* SurfaceAreaMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18072C260A42900055A1E7 /* SurfaceAreaMenuView.swift */; };
+		6C180733260A49300055A1E7 /* VolumeOfTriangularPrismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C180732260A49300055A1E7 /* VolumeOfTriangularPrismView.swift */; };
+		6C18073D260A4EE10055A1E7 /* VolumeOfRectangularPrismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18073C260A4EE10055A1E7 /* VolumeOfRectangularPrismView.swift */; };
+		6C180741260A67690055A1E7 /* VolumeOfPyramidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C180740260A67690055A1E7 /* VolumeOfPyramidView.swift */; };
+		6C180747260A6B1A0055A1E7 /* VolumeOfConeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C180746260A6B1A0055A1E7 /* VolumeOfConeView.swift */; };
+		6C18074B260A6C590055A1E7 /* VolumeOfSphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18074A260A6C590055A1E7 /* VolumeOfSphereView.swift */; };
+		6C18074F260A6DCB0055A1E7 /* VolumeOfCylinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18074E260A6DCB0055A1E7 /* VolumeOfCylinderView.swift */; };
 		6CE5BE50260108AF001EC320 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE4F260108AF001EC320 /* main.swift */; };
 		6CE5BE5A2603D2EB001EC320 /* SharedFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE592603D272001EC320 /* SharedFunctions.swift */; };
 		6CE5BE632603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BE622603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift */; };
@@ -34,6 +42,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6C180725260A42260055A1E7 /* VolumeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeMenuView.swift; sourceTree = "<group>"; };
+		6C18072C260A42900055A1E7 /* SurfaceAreaMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceAreaMenuView.swift; sourceTree = "<group>"; };
+		6C180732260A49300055A1E7 /* VolumeOfTriangularPrismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeOfTriangularPrismView.swift; sourceTree = "<group>"; };
+		6C18073C260A4EE10055A1E7 /* VolumeOfRectangularPrismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeOfRectangularPrismView.swift; sourceTree = "<group>"; };
+		6C180740260A67690055A1E7 /* VolumeOfPyramidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeOfPyramidView.swift; sourceTree = "<group>"; };
+		6C180746260A6B1A0055A1E7 /* VolumeOfConeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeOfConeView.swift; sourceTree = "<group>"; };
+		6C18074A260A6C590055A1E7 /* VolumeOfSphereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeOfSphereView.swift; sourceTree = "<group>"; };
+		6C18074E260A6DCB0055A1E7 /* VolumeOfCylinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeOfCylinderView.swift; sourceTree = "<group>"; };
 		6CE5BE4C260108AF001EC320 /* PerimeterAreaVolumeHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PerimeterAreaVolumeHelper; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE5BE4F260108AF001EC320 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6CE5BE572603CED8001EC320 /* Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -69,6 +85,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C180724260A41E40055A1E7 /* Volume */ = {
+			isa = PBXGroup;
+			children = (
+				6C180725260A42260055A1E7 /* VolumeMenuView.swift */,
+				6C180732260A49300055A1E7 /* VolumeOfTriangularPrismView.swift */,
+				6C18073C260A4EE10055A1E7 /* VolumeOfRectangularPrismView.swift */,
+				6C180740260A67690055A1E7 /* VolumeOfPyramidView.swift */,
+				6C180746260A6B1A0055A1E7 /* VolumeOfConeView.swift */,
+				6C18074A260A6C590055A1E7 /* VolumeOfSphereView.swift */,
+				6C18074E260A6DCB0055A1E7 /* VolumeOfCylinderView.swift */,
+			);
+			path = Volume;
+			sourceTree = "<group>";
+		};
+		6C18072B260A42310055A1E7 /* Surface Area */ = {
+			isa = PBXGroup;
+			children = (
+				6C18072C260A42900055A1E7 /* SurfaceAreaMenuView.swift */,
+			);
+			path = "Surface Area";
+			sourceTree = "<group>";
+		};
 		6CE5BE43260108AF001EC320 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +140,8 @@
 			children = (
 				6CE5BE622603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift */,
 				6CFB15742608CF7600AE22FF /* Area */,
+				6C180724260A41E40055A1E7 /* Volume */,
+				6C18072B260A42310055A1E7 /* Surface Area */,
 				6CE5BE662603D359001EC320 /* Assets.xcassets */,
 				6CE5BE6B2603D359001EC320 /* Info.plist */,
 				6CE5BE682603D359001EC320 /* Preview Content */,
@@ -229,12 +269,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C180733260A49300055A1E7 /* VolumeOfTriangularPrismView.swift in Sources */,
+				6C18073D260A4EE10055A1E7 /* VolumeOfRectangularPrismView.swift in Sources */,
 				6CFB15692607F1AE00AE22FF /* AreaOfTrapezoidView.swift in Sources */,
 				6CFB15652604E5AC00AE22FF /* AreaOfParallelogramView.swift in Sources */,
+				6C18074B260A6C590055A1E7 /* VolumeOfSphereView.swift in Sources */,
 				6CFB155D2604E1C300AE22FF /* AreaOfCircleView.swift in Sources */,
 				6CE5BE712603D376001EC320 /* SharedFunctions.swift in Sources */,
+				6C18074F260A6DCB0055A1E7 /* VolumeOfCylinderView.swift in Sources */,
+				6C18072D260A42900055A1E7 /* SurfaceAreaMenuView.swift in Sources */,
 				6CE5BE652603D353001EC320 /* AreaOfRectangleView.swift in Sources */,
 				6CFB15612604E43F00AE22FF /* AreaOfTriangleView.swift in Sources */,
+				6C180747260A6B1A0055A1E7 /* VolumeOfConeView.swift in Sources */,
+				6C180741260A67690055A1E7 /* VolumeOfPyramidView.swift in Sources */,
+				6C180726260A42260055A1E7 /* VolumeMenuView.swift in Sources */,
 				6CFB156D2608CBC100AE22FF /* AreaMenuView.swift in Sources */,
 				6CE5BE632603D353001EC320 /* iOS_PerimeterAreaVolumeHelperApp.swift in Sources */,
 			);
