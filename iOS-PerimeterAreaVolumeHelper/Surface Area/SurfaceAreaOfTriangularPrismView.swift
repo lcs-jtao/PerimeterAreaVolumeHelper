@@ -66,16 +66,17 @@ struct SurfaceAreaOfTriangularPrismView: View {
                     .bold()
                 TextField("Height", text :$givenHeight)
             }
+            
             Group{
                 Text("Enter the bottom length (l) of the prism")
                     .bold()
                 TextField("Length", text :$givenLength)
                 
-                Text("Enter the side c (c) of the prism")
+                Text("Enter side c (c) of the prism")
                     .bold()
                 TextField("Side c", text :$givenSideC)
                 
-                Text("Enter the side a (a) of the prism")
+                Text("Enter side a (a) of the prism")
                     .bold()
                 TextField("Side a", text :$givenSideA)
             }
