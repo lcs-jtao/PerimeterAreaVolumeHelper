@@ -48,6 +48,11 @@ struct AreaOfTriangleView: View {
             
             //OUTPUT
             Text("The area of the triangle is \(area)")
+            
+            Button("Clear input") {
+                givenBase = "0"
+                givenHeight = "0"
+            }
         }
         .navigationTitle("Triangle Area Helper")
         .navigationBarTitleDisplayMode(.inline)

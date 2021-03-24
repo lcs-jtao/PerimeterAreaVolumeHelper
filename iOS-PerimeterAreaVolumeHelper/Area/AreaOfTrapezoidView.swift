@@ -57,6 +57,12 @@ struct AreaOfTrapezoidView: View {
             
             //OUTPUT
             Text("The area of the trapezoid is \(area)")
+            
+            Button("Clear input") {
+                givenTop = "0"
+                givenBase = "0"
+                givenHeight = "0"
+            }
         }
         .navigationTitle("Trapezoid Area Helper").navigationBarTitleDisplayMode(.inline)
     }

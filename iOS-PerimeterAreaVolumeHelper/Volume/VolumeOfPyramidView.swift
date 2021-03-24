@@ -48,6 +48,11 @@ struct VolumeOfPyramidView: View {
             
             //OUTPUT
             Text("The volume of the pyramid is \(volume)")
+            
+            Button("Clear input") {
+                givenBase = "0"
+                givenHeight = "0"
+            }
         }
         .navigationTitle("Square-based Pyramid Volume Helper")
         .navigationBarTitleDisplayMode(.inline)

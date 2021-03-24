@@ -58,6 +58,12 @@ struct VolumeOfRectangularPrismView: View {
             
             //OUTPUT
             Text("The volume of the rectangular prism is \(volume)")
+            
+            Button("Clear input") {
+                givenWidth = "0"
+                givenLength = "0"
+                givenHeight = "0"
+            }
         }
         .navigationTitle("Rectangular Prism Volume Helper")
         .navigationBarTitleDisplayMode(.inline)

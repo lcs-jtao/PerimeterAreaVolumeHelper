@@ -11,21 +11,15 @@ struct VolumeMenuView: View {
     var body: some View {
         List {
             NavigationLink(
+                destination: VolumeOfCylinderView(),
+                label: {
+                    Text("Cylinder")
+                })
+            
+            NavigationLink(
                 destination: VolumeOfSphereView(),
                 label: {
                     Text("Sphere")
-                })
-            
-            NavigationLink(
-                destination: VolumeOfRectangularPrismView(),
-                label: {
-                    Text("Rectangular Prism")
-                })
-            
-            NavigationLink(
-                destination: VolumeOfTriangularPrismView(),
-                label: {
-                    Text("Triangular Prism")
                 })
             
             NavigationLink(
@@ -41,9 +35,15 @@ struct VolumeMenuView: View {
                 })
             
             NavigationLink(
-                destination: VolumeOfCylinderView(),
+                destination: VolumeOfRectangularPrismView(),
                 label: {
-                    Text("Cylinder")
+                    Text("Rectangular Prism")
+                })
+            
+            NavigationLink(
+                destination: VolumeOfTriangularPrismView(),
+                label: {
+                    Text("Triangular Prism")
                 })
         }
         .navigationTitle("Volume Helpers")

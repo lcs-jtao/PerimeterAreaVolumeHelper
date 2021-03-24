@@ -59,6 +59,12 @@ struct VolumeOfTriangularPrismView: View {
             
             //OUTPUT
             Text("The volume of the triangular prism is \(volume)")
+            
+            Button("Clear input") {
+                givenLength = "0"
+                givenBase = "0"
+                givenHeight = "0"
+            }
         }
         .navigationTitle("Triangular Prism Volume Helper")
         .navigationBarTitleDisplayMode(.inline)

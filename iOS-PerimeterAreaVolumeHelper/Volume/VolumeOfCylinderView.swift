@@ -48,6 +48,11 @@ struct VolumeOfCylinderView: View {
             
             //OUTPUT
             Text("The volume of the cylinder is \(volume)")
+            
+            Button("Clear input") {
+                givenRadius = "0"
+                givenHeight = "0"
+            }
         }
         .navigationTitle("Cylinder Volume Helper")
         .navigationBarTitleDisplayMode(.inline)

@@ -56,6 +56,11 @@ struct AreaOfRectangleView: View {
             
             //OUTPUT
             Text("The area of the rectangle is \(area)")
+            
+            Button("Clear input") {
+                givenWidth = "0"
+                givenLength = "0"
+            }
         }
         .navigationTitle("Rectangle Area Helper")
         .navigationBarTitleDisplayMode(.inline)

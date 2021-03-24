@@ -38,6 +38,10 @@ struct VolumeOfSphereView: View {
             
             //OUTPUT
             Text("The volume of the sphere is \(volume)")
+            
+            Button("Clear input") {
+                givenRadius = "0"
+            }
         }
         .navigationTitle("Sphere Volume Helper")
         .navigationBarTitleDisplayMode(.inline)

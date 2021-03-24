@@ -48,6 +48,11 @@ struct VolumeOfConeView: View {
             
             //OUTPUT
             Text("The volume of the cone is \(volume)")
+            
+            Button("Clear input") {
+                givenRadius = "0"
+                givenHeight = "0"
+            }
         }
         .navigationTitle("Cone Volume Helper")
         .navigationBarTitleDisplayMode(.inline)

@@ -48,6 +48,11 @@ struct AreaOfParallelogramView: View {
             
             //OUTPUT
             Text("The area of the parallelogram is \(area)")
+            
+            Button("Clear input") {
+                givenBase = "0"
+                givenHeight = "0"
+            }
         }
         .navigationTitle("Parallelogram Area Helper")
         .navigationBarTitleDisplayMode(.inline)
