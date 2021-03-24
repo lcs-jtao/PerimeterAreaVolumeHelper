@@ -54,3 +54,27 @@ func volumeOfTriangularPrism(l: Double, b: Double, h: Double) -> Double{
     return (b * l * h) / 2
 }
 
+//MARK: Surface Area
+func surfaceAreaOfCylinder(r: Double, h: Double) -> Double{
+    return (Double.pi * r * r * 2) + (Double.pi * r * h)
+}
+
+func surfaceAreaOfSphere(r: Double) -> Double{
+    return Double.pi * r * r * 4
+}
+
+func surfaceAreaOfCone(r: Double, s: Double) -> Double{
+    return (Double.pi * r * r) + (Double.pi * r * s)
+}
+
+func surfaceAreaOfPyramid(b: Double, s: Double) -> Double{
+    return (b * b) + (2 * b * s)
+}
+
+func surfaceAreaOfRectangularPrism(l: Double, w: Double, h: Double) -> Double{
+    return 2 * ((w * h) + (l * w) + (l * h))
+}
+
+func surfaceAreaOfTriangularPrism(l: Double, b: Double, h: Double, c:Double, a: Double) -> Double{
+    return (b * l) + (a * h) + (b * h) + (c * h)
+}

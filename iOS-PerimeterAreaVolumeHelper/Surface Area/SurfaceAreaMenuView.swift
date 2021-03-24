@@ -11,33 +11,39 @@ struct SurfaceAreaMenuView: View {
     var body: some View {
         List {
             NavigationLink(
-                destination: AreaOfRectangleView(),
+                destination: SurfaceAreaOfCylinderView(),
                 label: {
-                    Text("Rectangle")
+                    Text("Cylinder")
                 })
             
             NavigationLink(
-                destination: AreaOfCircleView(),
+                destination: SurfaceAreaOfSphereView(),
                 label: {
-                    Text("Circle")
+                    Text("Sphere")
                 })
             
             NavigationLink(
-                destination: AreaOfTriangleView(),
+                destination: SurfaceAreaOfConeView(),
                 label: {
-                    Text("Triangle")
+                    Text("Cone")
                 })
             
             NavigationLink(
-                destination: AreaOfParallelogramView(),
+                destination: SurfaceAreaOfPyramidView(),
                 label: {
-                    Text("Parallelogram")
+                    Text("Square-based pyramid")
                 })
             
             NavigationLink(
-                destination: AreaOfTrapezoidView(),
+                destination: SurfaceAreaOfRectangularPrismView(),
                 label: {
-                    Text("Trapezoid")
+                    Text("Rectangular Prism")
+                })
+            
+            NavigationLink(
+                destination: SurfaceAreaOfTriangularPrismView(),
+                label: {
+                    Text("Triangular Prism")
                 })
         }
         .navigationTitle("Surface Area Helpers")
