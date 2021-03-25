@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct iOS_PerimeterAreaVolumeHelperApp: App {
+struct PerimeterAreaVolumeHelper: App {
     var body: some Scene {
         WindowGroup {
             
