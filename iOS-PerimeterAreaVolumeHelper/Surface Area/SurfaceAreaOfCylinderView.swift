@@ -47,7 +47,7 @@ struct SurfaceAreaOfCylinderView: View {
             TextField("Height", text :$givenHeight)
             
             //OUTPUT
-            Text("The surface area of the cylinder is \(surfaceArea)")
+            Text("The surface area of the cylinder is \(String(format: "%.3f", surfaceArea))")
             
             Button("Clear input") {
                 givenRadius = "0"

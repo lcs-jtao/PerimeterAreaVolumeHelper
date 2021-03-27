@@ -55,7 +55,7 @@ struct AreaOfRectangleView: View {
             TextField("Length", text :$givenLength)
             
             //OUTPUT
-            Text("The area of the rectangle is \(area)")
+            Text("The area of the rectangle is \(String(format: "%.3f", area))")
             
             Button("Clear input") {
                 givenWidth = "0"

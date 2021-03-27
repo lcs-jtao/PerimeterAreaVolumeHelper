@@ -38,7 +38,7 @@ struct AreaOfCircleView: View {
             TextField("Radius", text :$givenRadius)
             
             //OUTPUT
-            Text("The area of the circle is \(area)")
+            Text("The area of the circle is \(String(format: "%.3f", area))")
             
             Button("Clear input") {
                 givenRadius = "0"

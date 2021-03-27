@@ -47,7 +47,7 @@ struct AreaOfTriangleView: View {
             TextField("Height", text :$givenHeight)
             
             //OUTPUT
-            Text("The area of the triangle is \(area)")
+            Text("The area of the triangle is \(String(format: "%.3f", area))")
             
             Button("Clear input") {
                 givenBase = "0"

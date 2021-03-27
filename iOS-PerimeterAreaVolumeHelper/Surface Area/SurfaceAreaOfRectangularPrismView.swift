@@ -57,7 +57,7 @@ struct SurfaceAreaOfRectangularPrismView: View {
             TextField("Length", text :$givenLength)
             
             //OUTPUT
-            Text("The surface area of the rectangular prism is \(surfaceArea)")
+            Text("The surface area of the rectangular prism is \(String(format: "%.3f", surfaceArea))")
             
             Button("Clear input") {
                 givenWidth = "0"

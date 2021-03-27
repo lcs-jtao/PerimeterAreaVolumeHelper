@@ -47,7 +47,7 @@ struct SurfaceAreaOfConeView: View {
             TextField("Side", text :$givenSide)
             
             //OUTPUT
-            Text("The surface area of the cone is \(surfaceArea)")
+            Text("The surface area of the cone is \(String(format: "%.3f", surfaceArea))")
             
             Button("Clear input") {
                 givenRadius = "0"

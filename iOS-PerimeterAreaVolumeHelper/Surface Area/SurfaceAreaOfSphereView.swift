@@ -37,7 +37,7 @@ struct SurfaceAreaOfSphereView: View {
             TextField("Radius", text :$givenRadius)
             
             //OUTPUT
-            Text("The surface area of the sphere is \(surfaceArea)")
+            Text("The surface area of the sphere is \(String(format: "%.3f", surfaceArea))")
             
             Button("Clear input") {
                 givenRadius = "0"

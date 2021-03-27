@@ -47,7 +47,7 @@ struct SurfaceAreaOfPyramidView: View {
             TextField("Side", text :$givenSide)
             
             //OUTPUT
-            Text("The surface area of the pyramid is \(surfaceArea)")
+            Text("The surface area of the pyramid is \(String(format: "%.3f", surfaceArea))")
             
             Button("Clear input") {
                 givenBase = "0"

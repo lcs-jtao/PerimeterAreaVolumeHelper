@@ -37,7 +37,7 @@ struct VolumeOfSphereView: View {
             TextField("Radius", text :$givenRadius)
             
             //OUTPUT
-            Text("The volume of the sphere is \(volume)")
+            Text("The volume of the sphere is \(String(format: "%.3f", volume))")
             
             Button("Clear input") {
                 givenRadius = "0"

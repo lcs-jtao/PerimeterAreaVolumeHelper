@@ -47,7 +47,7 @@ struct VolumeOfCylinderView: View {
             TextField("Height", text :$givenHeight)
             
             //OUTPUT
-            Text("The volume of the cylinder is \(volume)")
+            Text("The volume of the cylinder is \(String(format: "%.3f", volume))")
             
             Button("Clear input") {
                 givenRadius = "0"

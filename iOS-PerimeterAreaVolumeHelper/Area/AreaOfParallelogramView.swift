@@ -47,7 +47,7 @@ struct AreaOfParallelogramView: View {
             TextField("Height", text :$givenHeight)
             
             //OUTPUT
-            Text("The area of the parallelogram is \(area)")
+            Text("The area of the parallelogram is \(String(format: "%.3f", area))")
             
             Button("Clear input") {
                 givenBase = "0"

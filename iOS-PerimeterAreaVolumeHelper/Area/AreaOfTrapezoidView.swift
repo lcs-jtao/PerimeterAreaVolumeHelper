@@ -56,7 +56,8 @@ struct AreaOfTrapezoidView: View {
             TextField("Height", text :$givenHeight)
             
             //OUTPUT
-            Text("The area of the trapezoid is \(area)")
+            //round values to have fewer decimal places
+            Text("The area of the trapezoid is \(String(format: "%.3f", area))")
             
             Button("Clear input") {
                 givenTop = "0"

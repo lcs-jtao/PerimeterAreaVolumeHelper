@@ -47,7 +47,7 @@ struct VolumeOfConeView: View {
             TextField("Height", text :$givenHeight)
             
             //OUTPUT
-            Text("The volume of the cone is \(volume)")
+            Text("The volume of the cone is \(String(format: "%.3f", volume))")
             
             Button("Clear input") {
                 givenRadius = "0"

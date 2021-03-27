@@ -47,7 +47,7 @@ struct VolumeOfPyramidView: View {
             TextField("Height", text :$givenHeight)
             
             //OUTPUT
-            Text("The volume of the pyramid is \(volume)")
+            Text("The volume of the pyramid is \(String(format: "%.3f", volume))")
             
             Button("Clear input") {
                 givenBase = "0"

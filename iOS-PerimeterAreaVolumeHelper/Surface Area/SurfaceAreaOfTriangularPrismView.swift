@@ -82,7 +82,7 @@ struct SurfaceAreaOfTriangularPrismView: View {
             }
             
             //OUTPUT
-            Text("The surface area of the triangular prism is \(surfaceArea)")
+            Text("The surface area of the triangular prism is \(String(format: "%.3f", surfaceArea))")
             
             Button("Clear input") {
                 givenLength = "0"

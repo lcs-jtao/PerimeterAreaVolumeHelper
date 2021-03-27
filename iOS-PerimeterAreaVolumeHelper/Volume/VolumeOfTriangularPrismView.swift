@@ -58,7 +58,7 @@ struct VolumeOfTriangularPrismView: View {
             TextField("Length", text :$givenLength)
             
             //OUTPUT
-            Text("The volume of the triangular prism is \(volume)")
+            Text("The volume of the triangular prism is \(String(format: "%.3f", volume))")
             
             Button("Clear input") {
                 givenLength = "0"
